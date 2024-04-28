@@ -1,0 +1,69 @@
+
+.test1{
+    color: black;
+}
+header {
+    color: #fff;
+    padding: 0; /* Réduire la taille du padding à 5 pixels en haut et en bas */
+    text-align: center;
+    bottom: 0;
+    border-top: 0.5px solid hsl(0, 1%, 82%);
+    border-bottom: 0.5px solid hsl(0, 1%, 82%);
+    width: 100%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+         
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 0.5px solid hsl(0, 1%, 82%); /* Ajoute une bordure en haut de 1 pixel solide avec la couleur #333 */
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1); /* Ajoute une ombre en bas avec un décalage vertical de -5px, flou de 10px et une transparence de 10% */
+}
+
+
+.moro{
+    text-align: center;
+    
+}
+p {
+    text-transform: uppercase;
+    /* Augmente la taille du texte */
+    font-size: 25px; /* Vous pouvez ajuster la taille selon vos besoins */
+    font-weight: bold;  
+}
+img {
+    width: 150px; /* Augmente la largeur de l'image à 200 pixels */
+   
+}
+.blue-text {
+    color: rgb(7, 189, 245); /* Change la couleur du texte en bleu */
+    font-size: 12px
+   
+}
+
+.noir-text {
+    color: black; 
+    font-size: 12px  
+}
+
+.smaller-text {
+    font-size: 14px; /* Taille de police plus petite pour les paragraphes avec la classe .smaller-text */
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: hwb(246 3% 3%);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
